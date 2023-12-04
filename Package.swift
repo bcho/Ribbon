@@ -4,8 +4,7 @@ import PackageDescription
 let package = Package(
     name: "Ribbon",
     platforms: [
-        .iOS(.v10),
-        .macOS(.v10_12),
+.iOS(.v10),
     ],
     products: [
         .library(
@@ -18,10 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "Ribbon",
-            dependencies: [],
-            path: "Ribbon",
-            sources: ["**/*.swift"]
+            path: "Ribbon"
         ),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )

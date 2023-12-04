@@ -6,8 +6,10 @@
 //  Copyright © 2019 Big Z Labs. All rights reserved.
 //
 
+import Foundation
+
 @objc
-public protocol RibbonDelegate: class {
+public protocol RibbonDelegate { 
 
     // MARK: - Methods
 
