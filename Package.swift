@@ -20,7 +20,7 @@ let package = Package(
             name: "Ribbon",
             dependencies: [],
             path: "Ribbon",
-            sources: ["Ribbon/**/*.swift"]
+            sources: ["**/*.swift"]
         ),
     ],
     swiftLanguageVersions: [.v5]
